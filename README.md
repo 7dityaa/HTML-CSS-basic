@@ -3,8 +3,11 @@ Welcome to the HTML & CSS Basics repository! This repository is designed to help
 
 HTML Basics
 1- Basic HTML Structure: Learn how to create a simple HTML document with essential tags like <!DOCTYPE>, <html>, <head>, and <body>
+
 2- Common HTML Tags: Examples of headings, paragraphs, <a>, <ul>, <ol>, <li>), and more.
+
 3- Forms and Inputs: Learn how to create forms using <form>, <input>, <textarea>, <button>, and other form-related elements.
+
 4-Semantic HTML: Understand the importance of semantic tags like <header>, <footer>, <section>, <article>, and <nav> for better accessibility and SEO.
 
 CSS Basics
