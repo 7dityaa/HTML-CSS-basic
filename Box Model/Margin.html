@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Margin</title>
+    </head>
+    <body>
+        <header>
+            <h2>Marigin in Box model</h2>
+            <p>The MARGIN tells us how far an element is away from other element</p>
+        </header>
+        <main>
+            <h4>Example-</h4>
+            <p>In the given example the <strong>Subscribe</strong> button have a margin of 10 px on right,</p>
+            <p>And the <strong>JOIN</strong> button have a Margin of 15px on top</p>
+            <button class="Subscribe">Subscribe</button>
+            <button class="Join">JOIN</button>
+        </main>
+    </body>
+</html>
+
+<style>
+    .Subscribe{
+    background-color: rgb(203, 0, 0);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 85px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity .2s;
+    vertical-align: top;
+  }
+
+  .Subscribe:hover{
+    opacity:.8;
+  }
+
+    .Subscribe:active{
+        opacity: .5;
+    }
+
+  .Join{
+    background-color: white;
+    color: rgb(0, 123, 255);
+    border-color: rgb(0, 123, 255);
+    border-style: solid;
+    border-radius: 2px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color .3s ,
+      color .3s;
+  }
+
+  .Join:hover{
+    background-color: rgb(0, 123, 255);
+    color: white;
+  }
+</style>
