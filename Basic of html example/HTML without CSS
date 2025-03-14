@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XYZ School</title>
+    <style>
+        h1{
+            font-size:24px;font-weight:bold;color:#1E90FE;
+        }
+        h2{
+            font-family:Arial;
+        }
+            #upcoming-event{
+                background-color:#FFFFE0;
+            }
+    </style>
+</head>
+<body>
+    <h1>XYZ School</h1>
+    <p>Welcome to XYZ School, dedicated to fostering a love of learning in every student.</p>
+    
+    <h2 style="color:#32CD32">Mission Statement</h2>
+    <p>Our mission is to provide a quality education that prepares all children for a successful future.</p>
+    
+    <h2 id="upcoming-event" style="color:#FFA07A">Upcoming Events</h2>
+    <ul>
+        <li data-event-type="indoor" title="Event type: indoor">Science Fair - <span style="font-weight:bold;color:red">June 10</span></li>
+        <li data-event-type="indoor" title="Event type: indoor">Art Exhibition - <span style="font-weight:bold;color:red">June 15</span></li>
+        <li data-event-type="outdoor" title="Event type: outdoor">Sports Day - <span style="font-weight:bold;color:red">June 20</span></li>
+    </ul>
+    
+    <div class="section">
+        <h2 style="color:#20B2AA">Contact Us</h2>
+        <p title="Click to copy Email">Email: info@xyzschool.com</p>
+        <p title="Click to copy Number">Phone: 555-1234</p>
+    </div>
+</body>
+</html>
